@@ -1,5 +1,1 @@
-#include "example.h"
-
-Dummy::Dummy() {}
-
-bool Dummy::doSomething() { return true; }
+#include "rectangular_array.hpp"
