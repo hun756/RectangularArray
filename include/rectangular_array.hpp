@@ -76,11 +76,11 @@ public:
 
     ///< !Delete 
     ///< Other Methods
-    // std::unique_ptr<T[]> getRow() const;
+    std::unique_ptr<T[]> getRow() const;
 
 
     ///< Overloading Operator
-    // RectangularArray& operator(int i, int j);
+    T& operator ()(int i, int j);
 
 private:
     std::unique_ptr<std::unique_ptr<T[]>[]> _wArr;
